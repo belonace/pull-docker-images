@@ -7,7 +7,7 @@ env:
   global:
     # change the registry name and username/password to yourself's.
     #- DOCKER_HUB=succw
-    - ALI_REGISTRY=registry.cn-shanghai.aliyuncs.com/belonace
+    - ALI_REGISTRY=registry.cn-hangzhou.aliyuncs.com/belonace
 
 before_script:
   #- echo "$ALI_REGISTRY"
