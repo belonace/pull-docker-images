@@ -11,7 +11,7 @@ env:
 
 before_script:
   #- echo "$ALI_REGISTRY"
-  - echo "$ALI_PASSWORD" | docker login registry.cn-hangzhou.aliyuncs.com -u "$ALI_USERNAME" --password-stdin
+  - echo "$ALI_PASSWORD" | docker login registry.cn-hangzhou.aliyuncs.com/belonace -u "$ALI_USERNAME" --password-stdin
  
 script:
   - echo "start pull and retag and push"
