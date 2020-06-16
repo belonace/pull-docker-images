@@ -10,7 +10,7 @@ env:
     - ALI_REGISTRY=registry.cn-shanghai.aliyuncs.com/belonace
 
 before_script:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "$ALI_REGISTRY"
   #- echo "$ALI_PASSWORD" | docker login "$ALI_REGISTRY" -u "$ALI_USERNAME" --password-stdin
  
 script:
