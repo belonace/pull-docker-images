@@ -1,11 +1,1 @@
-gcr.io/kfserving/kfserving-controller:0.2.2
-gcr.io/ml-pipeline/api-server:0.2.5
-gcr.io/ml-pipeline/visualization-server:0.2.5
-gcr.io/ml-pipeline/persistenceagent:0.2.5
-gcr.io/ml-pipeline/scheduledworkflow:0.2.5
-gcr.io/ml-pipeline/frontend:0.2.5
-gcr.io/ml-pipeline/viewer-crd-controller:0.2.5
-
-gcr.io/kubeflow-images-public/profile-controller:v1.0.0-ge50a8531
-gcr.io/kubeflow-images-public/kfam:v1.0.0-gf3e09203
-gcr.io/kubeflow-images-public/pytorch-operator:v1.0.0-g047cf0
+gcr.io/kubeflow-images-public/pytorch-operator:v1.0.0-g047cf0f
